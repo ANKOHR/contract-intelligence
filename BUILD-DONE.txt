@@ -1,0 +1,4 @@
+Test count: 17 pytest tests passed.
+Local implementation commit hash: a8af74cd6a12e9c99a839dc78491c5d87bfcacfd.
+
+Built Contract Intelligence as a deterministic, CPU-only Python CLI that generates visibly fictional contracts, parses sections, parties, dates, and exact evidence lines, extracts typed obligations and selected renewal, pricing, and unusual clause patterns, compares clauses for conflicts, computes dated renewal actions from amendment-aware term dates, and writes stable JSON and Markdown dossiers plus an append-only audit trail. The README documents the architecture, clause catalogue, and honesty boundary. The CLI, README, and reports state that results are deterministic pattern extraction, not legal advice or lawyer review, and each result links to its source text.

@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "contract-intelligence"
+version = "0.1.0"
+description = "Deterministic contract extraction with exact evidence references"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+ci = "contract_intelligence.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["contract_intelligence*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

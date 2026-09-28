@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+ci-prompt.txt
+ci-launch.py
+ci-codex.log
+ci-audit.jsonl
+build/
+dist/
+*.egg-info/
